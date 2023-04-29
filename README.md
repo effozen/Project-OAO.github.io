@@ -12,7 +12,7 @@ SW Open Source Application's 3rd report.
 2. Make an introduction page and upload on github
 3. Upload the link on the report page
 4. Upload webpage sources on the server and publish it to be able to look up
-4-1. Anyway is fine. Such as upload it on Github, Private Webserver etc...
+- Anyway is fine. Such as upload it on Github, Private Webserver etc...
 
 <br>
 
