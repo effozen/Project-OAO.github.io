@@ -1,5 +1,5 @@
 # 3rd_report
-<br><br><br><br>
+<br>
 ## Summary
 SW Open Source Application's 3rd report.
 <br>
