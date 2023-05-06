@@ -5,14 +5,35 @@
 /*}*/
 
 .introduction_1{
-    position:relative;
+    position:static;
     float:left;
-    margin-top:5%;
-    margin-left:15%;
+    margin-top:9%;
+    margin-left:12%;
 }
 .introduction_2{
-    position:relative;
+    position:static;
     float:left;
-    margin-top:5%;
+    margin-top:9%;
     margin-left:6%;
+}
+#footer{
+    padding-top:10%;
+}
+.about_body{
+    font-size:20px;
+    color:#232B2B;
+}
+.introduction_3{
+    position:static;
+    margin-top:5%;
+    margin-left:12%;
+    margin-right:8.5%;
+    font-size:20px;
+}
+#img_center{
+    text-align:center;
+    margin-bottom:7%;
+}
+.bg_color{
+    background: #f1e2d7;
 }
