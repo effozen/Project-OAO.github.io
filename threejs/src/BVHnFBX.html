@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dance Player</title>
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="progress-bar-container">
+        <label for="progress-bar">Loading...</label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+    <canvas id="test"></canvas>
+    <script type="module">
+        import {initPlayer, loadFBX, loadBVH, animate} from "./js/BVHnFBX2.js";
+        initPlayer();
+        loadFBX("../model/fbx/Dancing.fbx");
+        animate();
+    </script>
+</body>
+</html>
