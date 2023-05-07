@@ -32,6 +32,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;* 해당 내용은 증빙 자료에 대한 첨부를 바탕으로 그 과정에서 얻은 것, 어떻게 진행을 하였는 지 등을 redirection 할 수 있게 차후 3D/Interactive Web으로 구현할 예정.
 - contact : 이메일 주소와 사용중인 SNS에 접근할 수 있는 아이콘 제공. 버튼 클릭시 이동할 수 있다.
 <br>
+
 ### 📝 오픈소스용 테스트 페이지
 - threejs : threejs에 기반해서, fbx player와 bvh player를 구현해놓은 테스트 페이지이다. canvas 사용에 익숙하지 않기 때문에, main page의 UI는 이식하지 못하였지만, 차후 이식할 예정이며, 이 페이지는 차후 3D에 기반한 자기소개 페이지로 변경할 예정이다.
 - motionCapture : Google의 Tensorflow 의 하위 프로젝트인 Posenet을 이용한 모션캡쳐 테스트 페이지이다. pause 버튼 클릭시 캡쳐한 모든 정보가 console에 log로 찍히게 된다.
