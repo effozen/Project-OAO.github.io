@@ -1,22 +1,42 @@
-# 3rd_report
+# 오픈소스SW활용 2분반 중간고사 과제
 
 <br>
 
-## Summary
-SW Open Source Application's 3rd report.
+## 📚 개요
+- Apache 2.0 License
+- 오픈소스SW활용 수업의 중간고사 대체 과제 제출 자료이다.
+- 본 자료는 단순히 과제만을 위한 일회성 자료가 아닌, 계속 가다듬으면서 개인용 포토폴리오 사이트와 각종 Front-End 테스트 사이트로 활용하고 있다.
+- 본 과제는 자기소개까지가 조건이나, 개인적인 웹 테스트 및 오픈소스SW활용이라는 본 수업에 맞춰서 추가로 2가지 항목을 추가하였다.
+- 계속 업데이트할 예정이며, Web3 관련 기술을 도입하고, 테스트하는 목적으로 쓰임에 따라 차후 다수의 브랜치를 바탕으로 엄격한 메세지와 버전관리의 필요성이 요구된다.
 
 <br>
 
-## Condition
-1. Create Github repository
-2. Make an introduction page and upload on github
-3. Upload the link on the report page
-4. Upload webpage sources on the server and publish it to be able to look up
-- Anyway is fine. Such as upload it on Github, Private Webserver etc...
+## 📚 과제 조건
+1. 깃허브 리포지토리를 만든다.
+2. 자기소개 페이지를 만들고 깃허브에 올린다.
+3. 깃허브에 올린 페이지를 서버에서 구동할 수 있게 한다.
+4. 소스코드를 올린 깃허브 링크와 웹사이트 페이지 링크를 제출한다.
+이때, 웹서버는 개인 서버, 깃허브 서버 등등 무엇이든 가능하다.
 
 <br>
 
-## Detail of the git
-1. index.html :: for the main page
-2. introduction.html :: to introduce who am I
-3. career_history.html :: to show the my career history
+## 📚 소스 코드 설명
+파일은 크게 6가지 챕터로 구분이 된다.<br>
+4가지는 자기소개용 챕터이며, 2가지는 오픈소스에 기반한 개인 프로젝트 진행을 위한 기술 테스트 페이지이다.<br>
+본 과제에서는 자기소개만 요구하였으나 오픈소스SW활용이라는 본 수업 목적에 맞게 웹 오픈소스를 실습해보기 위해 본 과제 페이지를 활용하였다.<br>
+<br>
+### 📝 자기소개용 페이지
+- index : main으로 보여주는 페이지이며, 간단한 자기소개를 보여준다.
+- about : 자기소개 페이지로, 나에 대한 페이지와 개발자 이름인 OAO에 대한 소개를 보여준다.
+- history : 내가 쌓은 커리어에 대한 발자취와 이에 대한 몇가지 증명 사진을 보여준다.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;* 해당 내용은 증빙 자료에 대한 첨부를 바탕으로 그 과정에서 얻은 것, 어떻게 진행을 하였는 지 등을 redirection 할 수 있게 차후 3D/Interactive Web으로 구현할 예정.
+- contact : 이메일 주소와 사용중인 SNS에 접근할 수 있는 아이콘 제공. 버튼 클릭시 이동할 수 있다.
+<br>
+### 📝 오픈소스용 테스트 페이지
+- threejs : threejs에 기반해서, fbx player와 bvh player를 구현해놓은 테스트 페이지이다. canvas 사용에 익숙하지 않기 때문에, main page의 UI는 이식하지 못하였지만, 차후 이식할 예정이며, 이 페이지는 차후 3D에 기반한 자기소개 페이지로 변경할 예정이다.
+- motionCapture : Google의 Tensorflow 의 하위 프로젝트인 Posenet을 이용한 모션캡쳐 테스트 페이지이다. pause 버튼 클릭시 캡쳐한 모든 정보가 console에 log로 찍히게 된다.
+
+<br>
+## 📚 Opensource reference
+- threejs : https://threejs.org/
+- posenet : https://www.tensorflow.org/lite/examples/pose_estimation/overview?hl=ko
