@@ -1,7 +1,7 @@
 # 오픈소스SW활용 2분반 중간고사 과제
 
 <br>
-##
+
 <strong>🔥🔥🔥🔥 DO NOT USE MY PHOTOS FOR ANY PURPOSE!!!!!!!!!!! 🔥🔥🔥🔥</strong>
 
 
